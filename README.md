@@ -1,5 +1,5 @@
 1. Run composer install
-2. Run  php bin/console doctrine:database:create
+2. Run php bin/console doctrine:database:create
 3. Run php bin/console doctrine:migrations:migrate
 4. Run symfony serve
 
@@ -23,6 +23,8 @@ Example of post request
     "status": "pending"
 }
 ```
+
+I have chosen to use sqlite for this test as it can be contained within this project. It's easier to setup as compared to Mysql since it's file base.
 
 My approach to microservice architechture.
 
